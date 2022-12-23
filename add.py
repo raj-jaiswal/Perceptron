@@ -1,10 +1,10 @@
 #  importing libraries
 import mysql.connector as msq
 #  Connecting to the database
-con=msq.connector.connect(
+con=msq.connect(
   host="localhost",
   user="user",
-  password="",
+  passwd="",
   database="data"
 )
 cursor=con.cursor()
